@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+.banner{
+    background-image: url(tms.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+ }
+#logoXD{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: rgba(0,0,0,0)
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+} 
+nav ul li {
+    margin-right: 25px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#peaky{
+    display: flex;
+    padding-left: 50px;
+}
+.red-button {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-left: 50px;
+}
+  
+.black-button {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-left: 25px;
+} 
+.red-button:hover, .black-button:hover {
+    transform: scale(1.1);
+  }
+#descripcion{
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.76);
+}
+.red-background {
+    background-color: red;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 2px 5px;
+    font-weight: bold;
+}
+  .vertical-bar {
+    display: inline-block;
+    margin: 0 5px;
+    border-right: 2px solid rgba(255, 255, 255, 0.781);
+    height: 20px;
+
+}
+#parrafo{
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.795);
+}  
